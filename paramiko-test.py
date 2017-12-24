@@ -24,7 +24,7 @@ pwd = str(input("Enter the IPassword: "))
 '''
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh.connect("192.168.150.142", username="bhanu", password="Kronos_16")
+ssh.connect("192.168.150.142", username="bhanu", password="XXXXXXX")
 '''
 while True :
 	cmd = str(input("ssh> "))
