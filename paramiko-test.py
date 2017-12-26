@@ -41,7 +41,7 @@ while True :
 			break
 
 stdin, stdout, stderr = ssh.exec_command('sudo tcpdump -i eth0 -v -c 10')
-stdin.write('Kronos_16\n')
+stdin.write('XXXXXX\n')
 stdin.flush()
 print (stderr.read())
 while True :
